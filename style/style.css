@@ -139,3 +139,34 @@ section{
     letter-spacing: 0.4px;
     color: #1B1A1A;margin-left: 156px;
 }
+footer{
+    padding-top: 62px;
+    padding-bottom: 60px;
+}
+.logo1{
+    display: inline-block;
+    margin-bottom: 20px
+}
+.lead{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #645C55;
+}
+.list1{
+    margin-top: 60px;
+}
+.item1{
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.item2{
+    margin-left: 20px;
+    display: inline-block;
+}
+.item3{
+    margin-left: 26px;
+    display: inline-block;
+}
