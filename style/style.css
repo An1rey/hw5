@@ -19,6 +19,9 @@ header{
 .list{
     display: flex; list-style: none
 }
+.list:hover{
+
+}
 .item{
     margin-right: 32px;
     margin-top: 14px;
@@ -98,6 +101,78 @@ section{
     text-decoration: none;
     margin-left: 25px;
 }
+.our_process{
+    padding-top: 100px;
+    padding-bottom: 134px;
+    background: white;
+}
+.process{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+.what_we_do{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #1B1A1A;
+    padding-bottom: 47px;
+}
+.main_process{
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 134px;
+}
+.icon{
+    text-align: center;
+    max-width: 294px;
+    padding-left: 40px;
+}
+.our_process h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #403E3B;
+}
+.our_process p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+}
+.building{
+    text-align: center;
+    max-width: 292px;
+    padding-left: 40px;
+}
+.financing{
+    text-align: center;
+    max-width: 285px;
+    padding-left: 40px;
+}
+.our_process img{
+    max-width: 117px;
+    padding-left: 85px;
+}
+
 .section2{
     background: #CEC4BC;
     border-radius: 0px;
@@ -169,4 +244,36 @@ footer{
 .item3{
     margin-left: 26px;
     display: inline-block;
+}
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+.owl-nav .owl-prev::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    font-size: 30px;
+    color: black;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right:40px;
+    top: 30px;
+
+}
+.owl-nav .owl-next::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    font-size: 30px;
+    color: black;
 }
