@@ -248,32 +248,16 @@ footer{
 .owl-stage{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     text-align: center;
+    align-items: center;
 }
-
 .owl-nav .owl-prev{
-    position: absolute;
+   position: absolute;
     left: 0;
-    top: 30px;
+    top: 20px;
 }
-.owl-nav .owl-prev::before{
+.owl-nav .owl-prev{
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-    content: "\f053";
     font-size: 30px;
-    color: black;
-}
-.owl-nav .owl-next{
-    position: absolute;
-    right:40px;
-    top: 30px;
-
-}
-.owl-nav .owl-next::before{
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    content: "\f054";
-    font-size: 30px;
-    color: black;
 }
