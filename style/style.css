@@ -277,3 +277,39 @@ footer{
     font-size: 30px;
     color: black;
 }
+.fa-solid .fa-circle{
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+.fa-solid .fa-circle::before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f111";
+}
+.ui-widget-header{
+    background: #ECE7E4;
+}
+.ui-widget-content{
+    background: #ECE7E4;
+}
+.ui-resizable-handle.ui-resizable-n{
+    border: none;
+}
+.ui-resizable-handle.ui-resizable-s{
+    border: none;
+}
+.ui-resizable-handle.ui-resizable-w{
+    border: none;
+}
+.ui-resizable-handle.ui-resizable-se.ui-icon.ui-icon-gripsmall-diagonal-se{
+    border: none;
+}
+.ui-resizable-handle.ui-resizable-sw{
+    border: none;
+}
+header p{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
